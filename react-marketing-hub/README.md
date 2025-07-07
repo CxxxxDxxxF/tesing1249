@@ -1,12 +1,36 @@
-# React + Vite
+# Rutgers Golf Course Marketing Hub (v3)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, branded dashboard for managing all Rutgers Golf Course marketing activities in one place.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **React 19** + **Vite** for fast, modern development
+- **Material UI (MUI)** for a beautiful, accessible, and responsive UI
+- **Custom Rutgers branding**: Scarlet color scheme and official logo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Sidebar navigation: Dashboard, Scheduling, Content, Analytics
+- Bold Rutgers header and sidebar
+- Responsive, mobile-friendly layout
+- Ready for future API integration and advanced features
 
-## Expanding the ESLint configuration
+## Development (v3)
+This is the **v3** codebase, currently in active development. The legacy static HTML/CSS/JS has been fully removed. All new features and UI are built in React + MUI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. Install dependencies:
+   ```sh
+   cd react-marketing-hub
+   npm install
+   ```
+2. Start the dev server:
+   ```sh
+   npm run dev
+   ```
+3. Open your browser to [http://localhost:5173](http://localhost:5173)
+
+## Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](../LICENSE)
